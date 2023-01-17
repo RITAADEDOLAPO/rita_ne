@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,400&display=swap');
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.page-wrapper{
+    max-width: 1440px;
+}
+.bgimg{
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    border-bottom: 8px solid #222;
+    display: flex;
+}
+.color-overlay{
+    width: 100%;
+    height: 121vh;
+    position: absolute;
+    top: 0;
+    background-image: radial-gradient(rgba(0,0,0,0.3), rgba(0,0,0));
+}
+.logo{
+    height: 8rem;
+    width: 10rem;
+    margin-left: 40px;
+    margin-top: -20px;
+    position: absolute;
+}
+.btn{
+    margin: 30px 35px;
+    padding: 6px 0px;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    background-color: red;
+    border: 1.5px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn a{
+    padding: 0px;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+}
+.grid_container1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foreword{
+    /*font-family: 'montserrat',sans-serif;*/
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 120px;
+}
+.foreword h1{
+    font-size: 50px;
+}
+.foreword p{
+    font-size: x-large;
+}
+.foreword .ready{
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 187px;
+}
+.mail input{
+    width: 420px;
+    padding: 6px;
+    outline: none;
+    font-size: large;
+}
+.mail button{
+    width: 200px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    font-size: x-large;
+}
+/*section 1 ends*/
+/*section 2 starts*/
+.two{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    max-width: 90rem;
+    color: white;
+    border-bottom: 8px solid #222;
+}
+
+.two img{
+    width: 510px;
+}
+
+.two .tv{
+    z-index: 1;
+    position: relative;
+    padding-bottom:50px;
+}
+
+.video_animation video{
+    position:absolute;
+    object-fit: contain;
+    object-position: center;
+    width: 23.1rem;
+    top: 80px;
+    right: 73px;
+    z-index: -1;
+}
+
+.tvnote{
+    padding:100px 0px;
+    font-size: 27px;
+}
+/*section 2 ends*/
+/*section 3 starts*/
+.three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px auto;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.three img{
+    height: 300px;
+    width: 270px;
+    margin: 90px 0 90px 50px;
+}
+.three .girl{
+    position: relative;
+}
+.black{
+    position: absolute;
+    border: 2px solid #737373;
+    border-radius: 14px;
+    background-color: black;
+    height: 85px;
+    width: 20rem;
+    top: 18rem;
+    left: 2rem;
+}
+.strange img{
+    width: 58px;
+    height: 71px;
+}
+.strange{
+    position: absolute;
+    top: 13rem;
+    left: -2px;
+}
+
+.strangenote{
+    position: absolute;
+    top: 19.7rem;
+    left: 7.5rem;
+}
+
+.strangenote span{
+    color: blue;
+}
+
+.girlnote{
+    padding-left: 70px;
+    font-size: xx-large;
+}
+/*section 3 ends*/
+/*section 4 starts*/
+.four{
+    /*display: flex;*/
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #222;
+    padding: 30px 0 50px 90px ;
+}
+/*section 4 ends*/
+/*section 5 starts*/
+.five{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 90rem;
+    color: white;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.five img{
+    height: 400px;
+    width: 500px;
+    padding: 60px 0px;
+}
+
+.kidsnote{
+    padding-top: 110px;
+    font-size: xx-large;
+}
+/*section 5 ends*/
+/*section 6 starts*/
+.six{
+    background-color:black;
+    border-bottom: 8px solid #222;
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30px auto;
+}
+
+.faq details{
+    background-color: #222;
+    margin: 10px;
+    font-size: x-large;
+    padding: 0px 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.faq{
+    margin-bottom: 45px;
+}
+
+.membership{
+    font-size: large;
+}
+
+.faq summary{
+    width: 49rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq details p{
+    padding: 15px 0px;
+}
+
+.faq details span{
+    font-size: xx-large;
+}
+
+.faqheader{
+    font-size: xx-large;
+}
+
+.mail2{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.mail2 input{
+    width: 500px;
+    padding: 6px;
+    outline: none;
+    font-size: larger;
+}
+.mail2 button{
+    width: 200px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    font-size: x-large;
+}
+.mail2 input,
+.mail2 button{
+    border-radius: 5px;
+}
+/*section 6 ends*/
+/*footer starts here*/
+footer{
+    background-color: black;
+    border-bottom: 8px solid #222;
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.foot{
+    display: flex;
+    margin: 0px auto;
+}
+.foot ul{
+    margin: 10px 25px;
+    padding: 0px 10px;
+    line-height: 35px;
+    font-size: 15px;
+}
+.foot ul li span:hover{
+    text-decoration: underline;
+}
+.foot ul span{
+    color: #737373;
+    margin: 0px 20px;
+}
+a:link{
+    text-decoration: none;
+}
+.question p{
+    color:#737373;
+    font-size: 18px;
+    margin: 6px 215px;
+    margin-top: 80px;
+}
+.question a{
+    color: #737373;
+}
+.question a:hover{
+    text-decoration: underline;
+}
+.question2 p{
+    color:#737373;
+    font-size: 15px;
+    margin: 0px 215px;
+    margin-bottom: 80px;
+}
+.question2 a{
+    color: #737373;
+}
+/*footer ends here*/
+
+@media only screen and (max-width: 700px) {
+    .page-wrapper{
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .bgimg{
+        height: 31rem;
+        width: 100%;
+    }
+    .color-overlay{
+        height: 31rem;
+    }
+   .logo{
+        width: 90px;
+        height: 70px;
+        margin: 5px 15px;
+    } 
+   .btn{
+        width: 50px;
+        height: 20px;
+        padding-top: 0;
+   }
+   .btn a{
+        font-size: 13px;
+        height: 90px;
+        width: 100px;
+   }
+   .foreword{
+        margin-top: 90px;
+   }
+   .foreword h1{
+        font-size: 25px;
+   }
+   .foreword p{
+        font-size: 19px;
+        margin-top: 10px;
+   }
+   .foreword .ready{
+    font-size: 19px;
+    margin-top: 10px;
+   }
+   .mail{
+    display: block;
+   }
+   .mail input{
+    width: 80%;
+    margin: -10px 0 10px 35px;
+    border-radius: 3px;
+    }
+    .mail button{
+        margin-left: 130px;
+        border-radius: 3px;
+        text-align: center;
+        width: 150px;
+        height: 40px;
+        font-size: 19px;
+    }
+    .two{
+        display: block;
+    }
+    .tvnote{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .tvnote h2{
+        margin-bottom: 15px;
+    }
+    .tv{
+        margin-top: -100px;
+    }
+    .tv img{
+        width: 390px;
+        margin-top: 1px;
+        margin-left: 9px;
+        z-index: 1;
+    }
+    .video_animation video{
+        width: 285px;
+        height: 195px;
+        top: 45px;
+        left: 60px;
+        z-index: -1;
+    }
+    .three{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 500px;
+    }
+    .girlnote{
+       font-size: 17px;
+       padding: 0;
+       margin-top: 100px;
+       text-align: center;
+    }
+    .girlnote p{
+        margin-top: 13px;
+    }
+    .girl img{
+        width: 220px;
+        height: 240px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .black{
+        position: absolute;
+        border: 2px solid #737373;
+        border-radius: 14px;
+        background-color: black;
+        height: 50px;
+        width: 17rem;
+        top: 12rem;
+        left: -15px;
+    }
+    .strange img{
+        width: 40px;
+        height: 45px;
+    }
+    .strange{
+        position: absolute;
+        top: 11rem;
+        left: 2px;
+    }
+    .strangenote{
+        position: absolute;
+        top: 12.5rem;
+        left: 3.5rem;
+        font-size: 12px;
+    }
+    .four {
+        font-size: 20px;
+        padding: 50px;
+        text-align: center;
+        width:fit-content;
+    }
+    .five{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 500px;
+    }
+    .five img{
+        width: 340px;
+        height: 240px;
+        padding: 20px 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .kidsnote{
+        font-size: 18px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .six{
+        width: 325px;
+        height: 600px;
+        padding-top: 50px;
+        border-bottom: 8px solid #222;
+    }
+    .faqheader{
+        margin-bottom: 29px;
+        width: 400px;
+        font-size: 20px;
+    }
+    .faq details{
+      width: 373px;  
+    }
+    .faq summary{
+        width: 360px;
+        height: 50px;
+        font-size: 19px;
+    }
+    .faq details p{
+        font-size: 19px;
+    }
+    .membership{
+        text-align: center;
+        margin-top: -35px;
+        margin-bottom: 10px;
+    }
+    .mail2{
+        display: block;
+    }
+    .mail2 input{
+        width: 350px;
+        margin: 0px 0 10px 0px;
+        border-radius: 3px;
+    }
+    .mail2 button{
+        margin-left: 100px;
+        border-radius: 3px;
+        text-align: center;
+        width: 150px;
+        height: 45px;
+        font-size: 17px;
+    } 
+    footer{
+        display: flex;
+    } 
+    .foot{
+        display: block;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    .question{
+        margin-bottom: -50px;
+        padding: 0;
+        width: 300px;
+        text-align: left;
+    }
+    .question p,.question2 p{
+        margin-top: 10px;
+        margin-left: 30px;
+        width: 190px;
+    }
+    .foot ul{
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
